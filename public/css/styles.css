@@ -368,16 +368,28 @@ a { text-decoration: none; }
 
 .gallery-tile {
   aspect-ratio: 4 / 3;
-  background: var(--bg-light);
-  border: 2px dashed #cdd6e5;
+  background: linear-gradient(135deg, var(--navy) 0%, var(--sky) 100%);
   border-radius: 12px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 12px;
   text-align: center;
-  color: #8a8f9c;
+  color: var(--white);
   font-weight: 600;
   padding: 16px;
+}
+
+.gallery-tile svg {
+  width: 44px;
+  height: 44px;
+  fill: var(--white);
+  opacity: 0.9;
+}
+
+.gallery-tile.placeholder {
+  opacity: 0.85;
 }
 
 /* Social icons */
