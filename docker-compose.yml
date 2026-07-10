@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: globaltechworx-web
+    ports:
+      - "${HOST_PORT:-3009}:3009"
+    restart: unless-stopped
