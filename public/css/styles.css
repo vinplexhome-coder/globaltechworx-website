@@ -125,11 +125,33 @@ a { text-decoration: none; }
   padding: 90px 0;
 }
 
-.tagline {
+.tagline-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.tagline-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   letter-spacing: 2px;
   font-weight: 700;
   color: #cfe8ff;
-  margin-bottom: 16px;
+}
+
+.tagline-icon {
+  width: 20px;
+  height: 20px;
+  fill: #cfe8ff;
+}
+
+.tagline-divider {
+  color: #9fd3ff;
+  font-weight: 700;
 }
 
 .hero h1 {

@@ -14,4 +14,8 @@
   <circle cx="20" cy="29" r="3" fill="#29a8e0"/>
   <line x1="72" y1="58" x2="56" y2="49" stroke="url(#hexGradient)" stroke-width="3"/>
   <circle cx="60" cy="51" r="3" fill="#29a8e0"/>
+  <line x1="8" y1="58" x2="24" y2="49" stroke="url(#hexGradient)" stroke-width="3"/>
+  <circle cx="20" cy="51" r="3" fill="#29a8e0"/>
+  <line x1="40" y1="76" x2="40" y2="60" stroke="url(#hexGradient)" stroke-width="3"/>
+  <circle cx="40" cy="64" r="3" fill="#29a8e0"/>
 </svg>
