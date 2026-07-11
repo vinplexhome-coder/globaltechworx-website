@@ -279,8 +279,17 @@ a { text-decoration: none; }
 }
 
 .service-card p {
-  margin: 0;
+  margin: 0 0 10px;
   font-size: 0.95rem;
+}
+
+.service-card p:last-child {
+  margin-bottom: 0;
+}
+
+.service-label {
+  color: var(--blue);
+  font-weight: 600;
 }
 
 /* Contact */
