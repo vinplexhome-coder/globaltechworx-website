@@ -53,30 +53,16 @@ a { text-decoration: none; }
   gap: 12px;
 }
 
-.brand-icon {
-  width: 44px;
-  height: 44px;
-}
-
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
-.brand-name {
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: var(--navy);
-}
-
-.brand-name .accent {
-  color: var(--sky);
+.brand-logo {
+  height: 46px;
+  width: auto;
+  display: block;
 }
 
 .brand-telugu {
   font-size: 0.75rem;
   color: var(--navy-light);
+  white-space: nowrap;
 }
 
 .site-nav {
