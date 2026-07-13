@@ -410,6 +410,20 @@ a { text-decoration: none; }
 }
 
 /* Gallery */
+.gallery-category {
+  margin-top: 48px;
+}
+
+.gallery-category:first-of-type {
+  margin-top: 20px;
+}
+
+.gallery-category-title {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--bg-light);
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
